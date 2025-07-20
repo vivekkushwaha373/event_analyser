@@ -1,5 +1,7 @@
 # Event Search Backend (Django)
 
+### TESTED WITH LOCUST FOR 10+ SIMULTANEOUS API CALLS WITH ASGI 4 WORKER NODE
+
 ## Setup & Installation
 
 1. **Clone the repository and navigate to the backend directory**
