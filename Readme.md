@@ -1,8 +1,29 @@
+# UI
+![Events Example](events.png)
+
+# Use container
+
+- [Frontend Docker Image](https://hub.docker.com/r/vivkus/frontend)
+- [Backend Docker Image](https://hub.docker.com/r/vivkus/backend)
+- docker pull vivkus/frontend:latest
+- docker pull vivkus/backend:latest
+- docker run --name my-frontend -p 80:80 vivkus/frontend:latest
+- docker run --name my-backend -p 8000:8000 vivkus/backend:latest
+- open localhost:80 for frontend
+- open localhost:8000 for backend
+
+- 
+
+
 # Event Search Backend (Django)
+
 
 ### TESTED WITH LOCUST FOR 10+ SIMULTANEOUS API CALLS WITH ASGI 4 WORKER NODE
 
+
 ## Setup & Installation
+
+
 
 1. **Clone the repository and navigate to the backend directory**
 
