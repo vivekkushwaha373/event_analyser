@@ -65,6 +65,11 @@
 ## locally
 - use uvicorn eventsearch.asgi:application --workers 4 --host 127.0.0.1 --port 8000
 
+## locust testing
+- cd backend
+- locust -f locustfile.py --host=http://localhost:8000       
+
+
 ## Notes
 - The backend scans all files in the `events/` folder for every search.
 - CORS is enabled for local frontend development. 
