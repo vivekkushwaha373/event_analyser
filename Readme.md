@@ -41,7 +41,7 @@
 
 5. **Run the development server**
    ```bash
-   python manage.py runserver
+   uvicorn eventsearch.asgi:application --workers 4
    ```
    The API will be available at `http://localhost:8000/api/search/`
 
